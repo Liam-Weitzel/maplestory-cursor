@@ -15,16 +15,21 @@ win_size = 32
 [cursors.fallback_settings]
 x_hotspot = 16
 y_hotspot = 16
-x11_delay = 10
+x11_delay = 400
 win_delay = 1
 
+# all-scroll
 [cursors.all-scroll]
 png = 'all-scroll-*.png'
+x11_delay = 120
+win_delay = 1
 x11_name = 'all-scroll'
 x11_symlinks = ['fleur', 'size_all']
 
-[cursors.bd_double_arrow]
+# bd-double-arrow
+[cursors.bd-double-arrow]
 png = 'bd-double-arrow-*.png'
+x11_delay = 120
 x11_name = 'bd_double_arrow'
 win_name = 'Diagonal_1'
 x11_symlinks = [
@@ -33,92 +38,14 @@ x11_symlinks = [
   'nwse-resize',
   'size_fdiag',
   'se-resize',
+  'bottom_left_corner',
+  'top_left_corner'
 ]
 
-[cursors.bottom_left_corner]
-png = 'bd-double-arrow-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'bottom_left_corner'
-
-[cursors.bottom_right_corner]
+# fd-double-arrow
+[cursors.fd-double-arrow]
 png = 'fd-double-arrow-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'bottom_right_corner'
-
-[cursors.bottom_side]
-png = 'bottom-side-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'bottom_side'
-
-[cursors.center_ptr]
-png = 'point.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'center_ptr'
-
-[cursors.color-picker]
-png = 'magnifying-glass-click-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'color-picker'
-
-[cursors.col-resize]
-png = 'point-horizontal-green-page-*.png'
-x11_name = 'col-resize'
-x11_symlinks = ['split_h']
-
-[cursors.context-menu]
-png = 'link-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'context-menu'
-
-[cursors.copy]
-png = 'link-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'copy'
-x11_symlinks = [
-  '1081e37283d90000800003c07f3ef6bf',
-  '6407b0e94181790501fd1e167b474872',
-  'b66166c04f8c3109214a4fbd64a50fc8',
-  'dnd-copy',
-]
-
-[cursors.cross]
-png = 'cross.png'
-x11_name = 'cross'
-win_name = 'Cross'
-x11_symlinks = ['cross_reverse', 'diamond_cross', 'tcross', 'crosshair']
-
-[cursors.crossed_circle]
-png = 'pirate.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'crossed_circle'
-x11_symlinks = ['forbidden', 'not-allowed']
-
-[cursors.dnd_no_drop]
-png = 'dnd_no_drop.png'
-x11_name = 'dnd_no_drop'
-win_name = 'Unavailiable'
-x11_symlinks = [
-  '03b6e0fcb3499374a867c041f52298f0',
-  'circle',
-  'dnd-no-drop',
-  'no-drop',
-]
-
-[cursors.dotbox]
-png = 'dotbox.png'
-x11_name = 'dotbox'
-x11_symlinks = ['dot_box_mask', 'draped_box', 'icon', 'target']
-
-[cursors.fd_double_arrow]
-png = 'fd-double-arrow-*.png'
+x11_delay = 120
 x11_name = 'fd_double_arrow'
 win_name = 'Diagonal_2'
 x11_symlinks = [
@@ -127,20 +54,28 @@ x11_symlinks = [
   'nesw-resize',
   'sw-resize',
   'size_bdiag',
+  'bottom_right_corner',
+  'top_right_corner'
 ]
 
-[cursors.hand1]
-png = 'grab-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'hand1'
-win_name = 'Move'
-x11_symlinks = ['grab', 'openhand']
+# point.png
+[cursors.point]
+png = 'point.png'
+x11_name = 'left_ptr'
+win_name = 'Default'
+x11_symlinks = [
+  'arrow', 'default', 'top_left_arrow',
+  'center_ptr',
+  'cross', 'cross_reverse', 'diamond_cross', 'tcross', 'crosshair',
+  'dotbox', 'dot_box_mask', 'draped_box', 'icon', 'target',
+  'pencil', 'draft',
+  'plus', 'cell',
+  'vertical-text', 'ibeam', 'text'
+]
 
-[cursors.hand2]
-png = 'link-*.png'
-x_hotspot = 16
-y_hotspot = 16
+# point-click-right-page
+[cursors.point-click-right]
+png = 'point-click-right-page-*.png'
 x11_name = 'hand2'
 win_name = 'Link'
 x11_symlinks = [
@@ -148,127 +83,33 @@ x11_symlinks = [
   'e29285e634086352946a0e7090d73106',
   'pointer',
   'pointing_hand',
+  'right_ptr',
+  'draft_large',
+  'draft_small'
 ]
 
-[cursors.left_ptr]
-png = 'point.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'left_ptr'
-win_name = 'Default'
-x11_symlinks = ['arrow', 'default', 'top_left_arrow']
-
-[cursors.left_ptr_watch]
-png = 'meso-coin-copper-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'left_ptr_watch'
-win_name = 'Work'
+# point-click-page
+[cursors.point-click]
+png = 'point-click-page-*.png'
+x11_name = 'copy'
 x11_symlinks = [
-  '00000000000000020006000e7e9ffc3f',
-  '08e8e1c95fe2fc01f976f1e063a24ccd',
-  '3ecb610c1bf2410f44200f48c40d3599',
-  'progress',
+  '1081e37283d90000800003c07f3ef6bf',
+  '6407b0e94181790501fd1e167b474872',
+  'b66166c04f8c3109214a4fbd64a50fc8',
+  'dnd-copy',
+  'context-menu'
 ]
 
-[cursors.left_side]
+# point-horizontal-green-page
+[cursors.horizontal-green]
 png = 'point-horizontal-green-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'left_side'
-
-[cursors.link]
-png = 'link-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'link'
+x11_delay = 120
+x11_name = 'col-resize'
 x11_symlinks = [
-  '3085a0e285430894940527032f8b26df',
-  '640fb0e74195791501fd1ed57b41487f',
-  'a2a266d0498c3104214a47bd64ab0fc8',
-  'alias',
-  'dnd-link',
-]
-
-[cursors.move]
-png = 'grab-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'move'
-x11_symlinks = [
-  '4498f0e0c1937ffe01fd06f973665830',
-  '9081237383d90e509aa00f00170e968f',
-  'fcf21c00b30f7e3f83fe0dfd12e71cff',
-  'grabbing',
-  'pointer_move',
-  'dnd-move',
-  'closedhand',
-  'dnd-none',
-]
-
-[cursors.pencil]
-png = 'pencil.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'pencil'
-win_name = 'Handwriting'
-x11_symlinks = ['draft']
-
-[cursors.pirate]
-png = 'pirate.png'
-x11_name = 'pirate'
-
-[cursors.plus]
-png = 'plus.png'
-x11_name = 'plus'
-x11_symlinks = ['cell']
-
-[cursors.question_arrow]
-png = 'question_arrow.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'question_arrow'
-win_name = 'Help'
-x11_symlinks = [
-  '5c6cd98b3f3ebcb1f9c7f1c204630408',
-  'd9ce0ab605698f320427677b458ad60b',
-  'help',
-  'left_ptr_help',
-  'whats_this',
-  'dnd-ask',
-]
-
-[cursors.right_ptr]
-png = 'point-click-right-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'right_ptr'
-win_name = 'Alternate'
-x11_symlinks = ['draft_large', 'draft_small']
-
-[cursors.right_side]
-png = 'point-horizontal-green-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'right_side'
-
-[cursors.row-resize]
-png = 'bottom-side-*.png'
-x11_name = 'row-resize'
-x11_symlinks = ['split_v']
-
-[cursors.sb_down_arrow]
-png = 'sb_down_arrow.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'sb_down_arrow'
-x11_symlinks = ['down-arrow']
-
-[cursors.sb_h_double_arrow]
-png = 'point-horizontal-green-page-*.png'
-x11_name = 'sb_h_double_arrow'
-win_name = 'Horizontal'
-x11_symlinks = [
+  'split_h',
+  'left_side',
+  'right_side',
+  'sb_h_double_arrow',
   '028006030e0e7ebffc7f7070c0600140',
   '14fef782d02440884392942c1120523',
   'e-resize',
@@ -277,34 +118,25 @@ x11_symlinks = [
   'size-hor',
   'size_hor',
   'w-resize',
+  'sb_left_arrow',
+  'left-arrow',
+  'sb_right_arrow',
+  'right-arrow'
 ]
 
-[cursors.sb_left_arrow]
-png = 'point-horizontal-green-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'sb_left_arrow'
-x11_symlinks = ['left-arrow']
-
-[cursors.sb_right_arrow]
-png = 'point-horizontal-green-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'sb_right_arrow'
-x11_symlinks = ['right-arrow']
-
-[cursors.sb_up_arrow]
+# bottom-side
+[cursors.bottom-side]
 png = 'bottom-side-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'sb_up_arrow'
-x11_symlinks = ['up-arrow']
-
-[cursors.sb_v_double_arrow]
-png = 'bottom-side-*.png'
-x11_name = 'sb_v_double_arrow'
-win_name = 'Vertical'
+x11_delay = 120
+x11_name = 'bottom_side'
 x11_symlinks = [
+  'row-resize',
+  'split_v',
+  'sb_down_arrow',
+  'down-arrow',
+  'sb_up_arrow',
+  'up-arrow',
+  'sb_v_double_arrow',
   '00008160000006810000408080010102',
   '2870a09082c103050810ffdffffe0204',
   'double_arrow',
@@ -314,61 +146,93 @@ x11_symlinks = [
   'size_ver',
   's-resize',
   'v_double_arrow',
+  'top_side'
 ]
 
-[cursors.top_left_corner]
-png = 'bd-double-arrow-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'top_left_corner'
+# point_lock_page
+[cursors.lock-page]
+png = 'point_lock_page_*.png'
+x11_name = 'crossed_circle'
+x11_symlinks = [
+  'forbidden',
+  'not-allowed',
+  'dnd_no_drop',
+  '03b6e0fcb3499374a867c041f52298f0',
+  'circle',
+  'dnd-no-drop',
+  'no-drop',
+  'pirate'
+]
 
-[cursors.top_right_corner]
-png = 'fd-double-arrow-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'top_right_corner'
+# magnifying-glass-click-page
+[cursors.magnifying-glass]
+png = 'magnifying-glass-click-page-*.png'
+x11_name = 'color-picker'
+x11_symlinks = [
+  'zoom-in',
+  'zoom-out'
+]
 
-[cursors.top_side]
-png = 'bottom-side-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'top_side'
+# grab-page
+[cursors.grab]
+png = 'grab-page-*.png'
+x11_delay = 120
+x11_name = 'hand1'
+win_name = 'Move'
+x11_symlinks = ['grab', 'openhand']
 
-[cursors.vertical-text]
-png = 'vertical-text.png'
-x11_name = 'vertical-text'
+# grab-page-03
+[cursors.grabbing]
+png = 'grab-page-03.png'
+x11_name = 'move'
+x11_symlinks = [
+  '4498f0e0c1937ffe01fd06f973665830',
+  '9081237383d90e509aa00f00170e968f',
+  'fcf21c00b30f7e3f83fe0dfd12e71cff',
+  'grabbing',
+  'pointer_move',
+  'dnd-move',
+  'closedhand',
+  'dnd-none'
+]
 
+# meso-coin-copper-page
 [cursors.wait]
 png = 'meso-coin-copper-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
+x11_delay = 120
 x11_name = 'wait'
 win_name = 'Busy'
-x11_symlinks = ['watch']
+x11_symlinks = [
+  'watch',
+  'left_ptr_watch',
+  '00000000000000020006000e7e9ffc3f',
+  '08e8e1c95fe2fc01f976f1e063a24ccd',
+  '3ecb610c1bf2410f44200f48c40d3599',
+  'progress'
+]
 
-[cursors.wayland-cursor]
-png = 'wayland-cursor.png'
-x11_name = 'wayland-cursor'
+# link
+[cursors.link]
+png = 'link-*.png'
+x11_name = 'link'
+x11_symlinks = [
+  '3085a0e285430894940527032f8b26df',
+  '640fb0e74195791501fd1ed57b41487f',
+  'a2a266d0498c3104214a47bd64ab0fc8',
+  'alias',
+  'dnd-link'
+]
 
-[cursors.X_cursor]
-png = 'X_cursor.png'
-x11_name = 'X_cursor'
-x11_symlinks = ['x-cursor']
-
-[cursors.xterm]
-png = 'xterm.png'
-x11_name = 'xterm'
-win_name = 'IBeam'
-x11_symlinks = ['ibeam', 'text']
-
-[cursors.zoom-in]
-png = 'magnifying-glass-click-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'zoom-in'
-
-[cursors.zoom-out]
-png = 'magnifying-glass-click-page-*.png'
-x_hotspot = 16
-y_hotspot = 16
-x11_name = 'zoom-out'
+# question
+[cursors.question]
+png = 'question.png'
+x11_name = 'question_arrow'
+win_name = 'Help'
+x11_symlinks = [
+  '5c6cd98b3f3ebcb1f9c7f1c204630408',
+  'd9ce0ab605698f320427677b458ad60b',
+  'help',
+  'left_ptr_help',
+  'whats_this',
+  'dnd-ask'
+]
