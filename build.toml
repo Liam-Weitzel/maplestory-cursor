@@ -13,18 +13,18 @@ win_size = 32
 [cursors]
 
 [cursors.fallback_settings]
-x_hotspot = 100
-y_hotspot = 100
+x_hotspot = 16
+y_hotspot = 16
 x11_delay = 10
 win_delay = 1
 
 [cursors.all-scroll]
-png = 'all-scroll.png'
+png = 'all-scroll-*.png'
 x11_name = 'all-scroll'
 x11_symlinks = ['fleur', 'size_all']
 
 [cursors.bd_double_arrow]
-png = 'bd_double_arrow.png'
+png = 'bd-double-arrow-*.png'
 x11_name = 'bd_double_arrow'
 win_name = 'Diagonal_1'
 x11_symlinks = [
@@ -36,50 +36,50 @@ x11_symlinks = [
 ]
 
 [cursors.bottom_left_corner]
-png = 'bottom_left_corner.png'
-x_hotspot = 40
-y_hotspot = 156
+png = 'bd-double-arrow-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'bottom_left_corner'
 
 [cursors.bottom_right_corner]
-png = 'bottom_right_corner.png'
-x_hotspot = 159
-y_hotspot = 155
+png = 'fd-double-arrow-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'bottom_right_corner'
 
 [cursors.bottom_side]
-png = 'bottom_side.png'
-x_hotspot = 101
-y_hotspot = 170
+png = 'bottom-side-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'bottom_side'
 
 [cursors.center_ptr]
-png = 'center_ptr.png'
-x_hotspot = 24
-y_hotspot = 21
+png = 'point.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'center_ptr'
 
 [cursors.color-picker]
-png = 'color-picker.png'
-x_hotspot = 51
-y_hotspot = 148
+png = 'magnifying-glass-click-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'color-picker'
 
 [cursors.col-resize]
-png = 'col-resize.png'
+png = 'point-horizontal-green-page-*.png'
 x11_name = 'col-resize'
 x11_symlinks = ['split_h']
 
 [cursors.context-menu]
-png = 'context-menu.png'
-x_hotspot = 6
-y_hotspot = 28
+png = 'link-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'context-menu'
 
 [cursors.copy]
-png = 'copy.png'
-x_hotspot = 6
-y_hotspot = 28
+png = 'link-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'copy'
 x11_symlinks = [
   '1081e37283d90000800003c07f3ef6bf',
@@ -95,9 +95,9 @@ win_name = 'Cross'
 x11_symlinks = ['cross_reverse', 'diamond_cross', 'tcross', 'crosshair']
 
 [cursors.crossed_circle]
-png = 'crossed_circle.png'
-x_hotspot = 6
-y_hotspot = 28
+png = 'pirate.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'crossed_circle'
 x11_symlinks = ['forbidden', 'not-allowed']
 
@@ -118,7 +118,7 @@ x11_name = 'dotbox'
 x11_symlinks = ['dot_box_mask', 'draped_box', 'icon', 'target']
 
 [cursors.fd_double_arrow]
-png = 'fd_double_arrow.png'
+png = 'fd-double-arrow-*.png'
 x11_name = 'fd_double_arrow'
 win_name = 'Diagonal_2'
 x11_symlinks = [
@@ -130,17 +130,17 @@ x11_symlinks = [
 ]
 
 [cursors.hand1]
-png = 'hand1.png'
-x_hotspot = 108
-y_hotspot = 93
+png = 'grab-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'hand1'
 win_name = 'Move'
 x11_symlinks = ['grab', 'openhand']
 
 [cursors.hand2]
-png = 'hand2.png'
-x_hotspot = 28
-y_hotspot = 13
+png = 'link-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'hand2'
 win_name = 'Link'
 x11_symlinks = [
@@ -151,17 +151,17 @@ x11_symlinks = [
 ]
 
 [cursors.left_ptr]
-png = 'left_ptr.png'
-x_hotspot = 24
-y_hotspot = 21
+png = 'point.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'left_ptr'
 win_name = 'Default'
 x11_symlinks = ['arrow', 'default', 'top_left_arrow']
 
 [cursors.left_ptr_watch]
-png = 'left_ptr_watch-*.png'
-x_hotspot = 28
-y_hotspot = 21
+png = 'meso-coin-copper-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'left_ptr_watch'
 win_name = 'Work'
 x11_symlinks = [
@@ -172,15 +172,15 @@ x11_symlinks = [
 ]
 
 [cursors.left_side]
-png = 'left_side.png'
-x_hotspot = 27
-y_hotspot = 98
+png = 'point-horizontal-green-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'left_side'
 
 [cursors.link]
-png = 'link.png'
-x_hotspot = 6
-y_hotspot = 28
+png = 'link-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'link'
 x11_symlinks = [
   '3085a0e285430894940527032f8b26df',
@@ -191,9 +191,9 @@ x11_symlinks = [
 ]
 
 [cursors.move]
-png = 'move.png'
-x_hotspot = 108
-y_hotspot = 106
+png = 'grab-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'move'
 x11_symlinks = [
   '4498f0e0c1937ffe01fd06f973665830',
@@ -208,8 +208,8 @@ x11_symlinks = [
 
 [cursors.pencil]
 png = 'pencil.png'
-x_hotspot = 40
-y_hotspot = 160
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'pencil'
 win_name = 'Handwriting'
 x11_symlinks = ['draft']
@@ -225,8 +225,8 @@ x11_symlinks = ['cell']
 
 [cursors.question_arrow]
 png = 'question_arrow.png'
-x_hotspot = 6
-y_hotspot = 28
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'question_arrow'
 win_name = 'Help'
 x11_symlinks = [
@@ -239,33 +239,33 @@ x11_symlinks = [
 ]
 
 [cursors.right_ptr]
-png = 'right_ptr.png'
-x_hotspot = 173
-y_hotspot = 23
+png = 'point-click-right-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'right_ptr'
 win_name = 'Alternate'
 x11_symlinks = ['draft_large', 'draft_small']
 
 [cursors.right_side]
-png = 'right_side.png'
-x_hotspot = 172
-y_hotspot = 98
+png = 'point-horizontal-green-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'right_side'
 
 [cursors.row-resize]
-png = 'row-resize.png'
+png = 'bottom-side-*.png'
 x11_name = 'row-resize'
 x11_symlinks = ['split_v']
 
 [cursors.sb_down_arrow]
 png = 'sb_down_arrow.png'
-x_hotspot = 99
-y_hotspot = 165
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'sb_down_arrow'
 x11_symlinks = ['down-arrow']
 
 [cursors.sb_h_double_arrow]
-png = 'sb_h_double_arrow.png'
+png = 'point-horizontal-green-page-*.png'
 x11_name = 'sb_h_double_arrow'
 win_name = 'Horizontal'
 x11_symlinks = [
@@ -280,28 +280,28 @@ x11_symlinks = [
 ]
 
 [cursors.sb_left_arrow]
-png = 'sb_left_arrow.png'
-x_hotspot = 35
-y_hotspot = 99
+png = 'point-horizontal-green-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'sb_left_arrow'
 x11_symlinks = ['left-arrow']
 
 [cursors.sb_right_arrow]
-png = 'sb_right_arrow.png'
-x_hotspot = 163
-y_hotspot = 99
+png = 'point-horizontal-green-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'sb_right_arrow'
 x11_symlinks = ['right-arrow']
 
 [cursors.sb_up_arrow]
-png = 'sb_up_arrow.png'
-x_hotspot = 100
-y_hotspot = 35
+png = 'bottom-side-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'sb_up_arrow'
 x11_symlinks = ['up-arrow']
 
 [cursors.sb_v_double_arrow]
-png = 'sb_v_double_arrow.png'
+png = 'bottom-side-*.png'
 x11_name = 'sb_v_double_arrow'
 win_name = 'Vertical'
 x11_symlinks = [
@@ -317,21 +317,21 @@ x11_symlinks = [
 ]
 
 [cursors.top_left_corner]
-png = 'top_left_corner.png'
-x_hotspot = 41
-y_hotspot = 42
+png = 'bd-double-arrow-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'top_left_corner'
 
 [cursors.top_right_corner]
-png = 'top_right_corner.png'
-x_hotspot = 159
-y_hotspot = 40
+png = 'fd-double-arrow-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'top_right_corner'
 
 [cursors.top_side]
-png = 'top_side.png'
-x_hotspot = 99
-y_hotspot = 27
+png = 'bottom-side-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'top_side'
 
 [cursors.vertical-text]
@@ -339,9 +339,9 @@ png = 'vertical-text.png'
 x11_name = 'vertical-text'
 
 [cursors.wait]
-png = 'wait-*.png'
-x_hotspot = 42
-y_hotspot = 36
+png = 'meso-coin-copper-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'wait'
 win_name = 'Busy'
 x11_symlinks = ['watch']
@@ -362,13 +362,13 @@ win_name = 'IBeam'
 x11_symlinks = ['ibeam', 'text']
 
 [cursors.zoom-in]
-png = 'zoom-in.png'
-x_hotspot = 93
-y_hotspot = 93
+png = 'magnifying-glass-click-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'zoom-in'
 
 [cursors.zoom-out]
-png = 'zoom-out.png'
-x_hotspot = 93
-y_hotspot = 93
+png = 'magnifying-glass-click-page-*.png'
+x_hotspot = 16
+y_hotspot = 16
 x11_name = 'zoom-out'
