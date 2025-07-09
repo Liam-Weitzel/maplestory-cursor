@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "cbmp": "ful1e5/cbmp"
-  },
-  "scripts": {
-    "render": "npx cbmp -d 'svg' -n 'Maple'",
-    "build": "ctgen build.toml"
-  }
-}
