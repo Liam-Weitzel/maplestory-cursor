@@ -41,7 +41,7 @@ In sway config:
 ```
 seat * xcursor_theme Maple 64
 ```
-the size: 64x64 was picked here as an example but feel free to change to any in the list belobut feel free to change to any in the list below. The original size of the cursor is 32x32.
+The size 64x64 was picked here as an example but feel free to change to any in the list below. The original size of the cursor is 32x32.
 
 ## Cursor Sizes
 
