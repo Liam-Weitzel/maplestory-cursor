@@ -8,7 +8,7 @@ Developed on NixOS + Sway, but probably works on all major operating systems if 
 
 ## 🐧📦 NixOS + Sway Installation
 
-Working on getting this in the [Nix store](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=maplestory-cursor).
+Now available in [nixpkgs](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=maplestory-cursor)!
 
 A sample system wide configuration:
 ```
