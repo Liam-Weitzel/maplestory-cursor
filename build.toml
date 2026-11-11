@@ -70,7 +70,7 @@ x11_symlinks = [
   'dotbox', 'dot_box_mask', 'draped_box', 'icon', 'target',
   'pencil', 'draft',
   'plus', 'cell',
-  'vertical-text', 'ibeam', 'text'
+  'vertical-text', 'ibeam', 'text', 'xterm', 'X_cursor'
 ]
 
 # point-click-right-page
@@ -85,7 +85,8 @@ x11_symlinks = [
   'pointing_hand',
   'right_ptr',
   'draft_large',
-  'draft_small'
+  'draft_small',
+  'hand'
 ]
 
 # point-click-page
@@ -111,7 +112,7 @@ x11_symlinks = [
   'right_side',
   'sb_h_double_arrow',
   '028006030e0e7ebffc7f7070c0600140',
-  '14fef782d02440884392942c1120523',
+  '14fef782d02440884392942c11205230',
   'e-resize',
   'ew-resize',
   'h_double_arrow',
