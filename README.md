@@ -43,6 +43,27 @@ seat * xcursor_theme Maple 64
 ```
 The size 64x64 was picked here as an example but feel free to change to any in the list below. The original size of the cursor is 32x32.
 
+## 🛠️ Build from Source & Linux / X11 Installation
+
+### Prerequisites
+- Python >= 3.7
+- [clickgen](https://github.com/ful1e5/clickgen) (`ctgen`)
+
+### Build
+```bash
+# Build X11 cursors
+ctgen build.toml -p x11
+```
+
+### Installation
+Copy the compiled theme to your local icons directory:
+```bash
+mkdir -p ~/.icons ~/.local/share/icons
+cp -r themes/Maple ~/.icons/
+cp -r themes/Maple ~/.local/share/icons/
+```
+Then select **Maple** in your desktop environment's cursor settings (e.g., XFCE, GNOME, KDE).
+
 ## Cursor Sizes
 
 <kbd>16</kbd>
